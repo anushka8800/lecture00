@@ -6,7 +6,7 @@
   </head>
   <body>
     <table> <div id="intro">
-      <h3>contents of the page!!!</h3> </div>
+      <h2>Contents of the page!!!</h2> </div>
       <ul>
         <li> <a href="http://google.com">GOOGLE</a> </li>
         <li> <a href="#top">Contents of the table</a> </li>
@@ -60,14 +60,17 @@
     </table>
     </div>
 
-    <h3 id=form>Visitor's form</h3>
+    <h2 id=form>Visitor's form</h2>
     <form>
-      <div>
-        Name <input list="name" name="name" placeholder="full name">
+      <div id="visit">
+        Name <input list="name" name="name" placeholder="name">
+        <br>
+        Age <input type="number" name="age" placeholder="age">
+        <br>
         Password <input type="password" name="password" placeholder="password">
       </div>
 
-      <div>
+      <div id=rate>
         Rate this page
         <input type="radio" name="rating" value="1">1
         <input type="radio" name="rating" value="2">2
@@ -96,6 +99,8 @@
           <option value="lakshya"></option>
           <option value="X AE A-12"></option>
         </datalist>
+        <br>
+        <br>
       </div>
 
       <button> SUBMIT </button>

@@ -18,3 +18,5 @@ th,td{border: 1px solid black;
       padding: 5px;
       text-align: center;}
 th{background-color: rosybrown;}
+button:hover{background-color: grey;}
+#visit,#rate{font-size: 18px;}
