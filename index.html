@@ -4,19 +4,69 @@
     <title> My Web page </title>
     <link rel="stylesheet" href="styles.css">
   </head>
+
   <body>
-    <table> <div id="intro">
+
+     <div id="intro">
       <h2>Contents of the page!!!</h2> </div>
       <ul>
         <li> <a href="http://google.com">GOOGLE</a> </li>
+        <li> <a href="#form">Visitor's form</a> </li>
         <li> <a href="#top">Contents of the table</a> </li>
         <li> <a href="#table">Table</a> </li>
-        <li> <a href="#form">Visitor's form</a> </li>
+
       </ul>
-    </table>
+
     <img src="bg1.jpg">
+
     <div id="top">
       <h1>MY WEB PAGE</h1>
+
+      <h2 id=form>Visitor's form</h2>
+      <form>
+        <div id="visit">
+          Name <input list="name" name="name" placeholder="name">
+          <br>
+          Age <input type="number" name="age" placeholder="age">
+          <br>
+          Password <input type="password" name="password" placeholder="password">
+        </div>
+
+        <div id=rate>
+          Rate this page
+          <input type="radio" name="rating" value="1">1
+          <input type="radio" name="rating" value="2">2
+          <input type="radio" name="rating" value="3">3
+          <input type="radio" name="rating" value="4">4
+          <input type="radio" name="rating" value="5">5
+        </div>
+
+        <div>
+          <datalist id="name">
+            <option value="anu"></option>
+            <option value="anushka"></option>
+            <option value="archit"></option>
+            <option value="archna"></option>
+            <option value="hema"></option>
+            <option value="hemant"></option>
+            <option value="hemlata"></option>
+            <option value="ria"></option>
+            <option value="rita"></option>
+            <option value="ritik"></option>
+            <option value="ritika"></option>
+            <option value="ritu"></option>
+            <option value="monjulika"></option>
+            <option value="lakshay"></option>
+            <option value="lakshita"></option>
+            <option value="lakshya"></option>
+            <option value="X AE A-12"></option>
+          </datalist>
+          <br>
+          <br>
+        </div>
+
+        <button> SUBMIT </button>
+      </form>
       <h3>Contents of the table!!!</h3>
     </div>
     <ul>
@@ -60,51 +110,7 @@
     </table>
     </div>
 
-    <h2 id=form>Visitor's form</h2>
-    <form>
-      <div id="visit">
-        Name <input list="name" name="name" placeholder="name">
-        <br>
-        Age <input type="number" name="age" placeholder="age">
-        <br>
-        Password <input type="password" name="password" placeholder="password">
-      </div>
 
-      <div id=rate>
-        Rate this page
-        <input type="radio" name="rating" value="1">1
-        <input type="radio" name="rating" value="2">2
-        <input type="radio" name="rating" value="3">3
-        <input type="radio" name="rating" value="4">4
-        <input type="radio" name="rating" value="5">5
-      </div>
-
-      <div>
-        <datalist id="name">
-          <option value="anu"></option>
-          <option value="anushka"></option>
-          <option value="archit"></option>
-          <option value="archna"></option>
-          <option value="hema"></option>
-          <option value="hemant"></option>
-          <option value="hemlata"></option>
-          <option value="ria"></option>
-          <option value="rita"></option>
-          <option value="ritik"></option>
-          <option value="ritika"></option>
-          <option value="ritu"></option>
-          <option value="monjulika"></option>
-          <option value="lakshay"></option>
-          <option value="lakshita"></option>
-          <option value="lakshya"></option>
-          <option value="X AE A-12"></option>
-        </datalist>
-        <br>
-        <br>
-      </div>
-
-      <button> SUBMIT </button>
-    </form>
 
   </body>
 </html>
